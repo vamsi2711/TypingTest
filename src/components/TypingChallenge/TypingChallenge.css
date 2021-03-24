@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    background-color: coral;
     align-items: center;
     justify-content: center;
 }
@@ -22,7 +23,8 @@
 .timer-info {
     margin: 0;
     margin-top: -5px;
-    color: #dd5044;
+    color:blue;
+    transform: scale(1.5);
 }
 
 .textarea-container {
@@ -45,6 +47,7 @@
     height: 400px;
     width: 100%;
     padding: 10px;
+    background-color: beige;
     line-height: 18px;
     flex-wrap: wrap;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
