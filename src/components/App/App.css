@@ -6,12 +6,16 @@ body {
 }
 
 .app-container {
+	position: fixed;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	/* min-height: 100vh; */
 	padding: 15px;
 	/* width: 100vw; */
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
 	box-sizing: border-box;
 	justify-content: center;
 }
@@ -20,7 +24,8 @@ body {
 	font-family: 'Carter One', cursive;
 	font-size: 50px;
 	margin: 0;
-	margin-bottom: 20px;
+	margin-bottom: -20px;
+	margin-top: 15px;
 	color: #fff;
 	text-shadow: 2px 2px 5px #2a2a2c;
 }
@@ -29,4 +34,5 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: stretch;
+	padding-top: -10px;
 }
